@@ -18,13 +18,13 @@ export const HeaderFirstLine = styled.View`
   background-color: #fff;
   flex-direction: row;
   padding: 10px;
-  background-color: pink;
+  /* background-color: pink; */
 `;
 
 export const LeftSide = styled.View`
   height: 100%;
   width: 60%;
-  background-color: pink;
+  /* background-color: pink; */
 `;
 
 export const RigthSide = styled.View`
@@ -49,7 +49,7 @@ export const SearchInput = styled.TextInput`
 `;
 
 export const MainContainer = styled.View`
-  background-color: blue;
+  /* background-color: blue; */
   padding: 10px;
 `;
 
@@ -61,9 +61,11 @@ export const Boxes = styled.View`
 `;
 
 export const ImageArea = styled.Image`
-  width: 64;
-  height: 64;
+  width: 70;
+  height: 70;
   margin: 0px 5px;
+  border: 1px solid #000;
+  padding: 5px;
 `;
 
 export const TitleSeparator = styled.Text`
@@ -78,4 +80,17 @@ export const BoxSale = styled.View`
   background-color: yellow;
   margin: 0px 5px;
   border-radius: 10px;
+  border: 1px solid #000;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+`;
+
+export const InternalBox = styled.View`
+  height: 40px;
+  width: 90%;
+  background-color: lightgray;
+  border-radius: 10px;
+  justify-content: flex-end;
+  margin-bottom: 10px;
 `;
