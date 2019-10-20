@@ -30,7 +30,10 @@ export const LeftSide = styled.View`
 export const RigthSide = styled.View`
   height: 100%;
   width: 40%;
-  background-color: red;
+  /* background-color: red; */
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 `;
 
 export const HeaderSecondLine = styled.View`
@@ -74,10 +77,9 @@ export const TitleSeparator = styled.Text`
   margin: 10px 0px;
 `;
 
-export const BoxSale = styled.View`
+export const BoxSale = styled.TouchableOpacity`
   height: 150;
   width: 150;
-  background-color: yellow;
   margin: 0px 5px;
   border-radius: 10px;
   border: 1px solid #000;
@@ -93,4 +95,5 @@ export const InternalBox = styled.View`
   border-radius: 10px;
   justify-content: flex-end;
   margin-bottom: 10px;
+  padding: 10px;
 `;
